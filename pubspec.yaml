@@ -1,0 +1,39 @@
+name: rakshabandhan_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: '1.1.0'
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: any
+  cupertino_icons: any
+  google_fonts: ^6.1.0
+  http: any
+  share_plus: any
+  url_launcher: any
+  image_picker: any
+  path_provider: any
+  image_gallery_saver: any
+  permission_handler: any
+  dio: any
+  cached_network_image: any
+  app_tracking_transparency: any
+  material_design_icons_flutter: any
+  launch_review: any
+  flutter_local_notifications: any
+  flutter_datetime_picker: any
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
